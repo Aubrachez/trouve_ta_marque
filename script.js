@@ -48,7 +48,7 @@ function displayQuestion(index) {
         seeResultsBtn.classList.add('see-results-btn');
         seeResultsBtn.onclick = () => {
             console.log("Résultats du quiz :", resultats);
-            alert("Résultats affichés dans la console (F12 → Console)");
+            
         };
         document.querySelector('.centered-div').appendChild(seeResultsBtn);
     }
@@ -60,12 +60,32 @@ document.querySelector('.next-btn').addEventListener('click', () => {
     
     // Mettre à jour ou ajouter la réponse
     const existingIndex = resultats.findIndex(item => item.questionId === currentQuestionIndex + 1);
+    valeurslider= parseInt(slider.value);
+
+    if (valeurslider >= 0 && valeurslider <= 20) {
+        console.log("A");
+        note=0;
+    } else if (valeurslider >= 21 && valeurslider <= 40) {
+        console.log("B");
+        note=1;
+    } else if (valeurslider >= 41 && valeurslider <= 60) {
+        console.log("C");
+        note=2;
+    } else if (valeurslider >= 61 && valeurslider <= 80) {
+        console.log("D");
+        note=3;
+    } else {
+        console.log("E");
+        note=4;
+    }
+
+
     if (existingIndex !== -1) {
-        resultats[existingIndex].valeur = parseInt(slider.value);
+        resultats[existingIndex].valeur = note;
     } else {
         resultats.push({
             questionId: currentQuestionIndex + 1,
-            valeur: parseInt(slider.value)
+            valeur: note
         });
     }
 
