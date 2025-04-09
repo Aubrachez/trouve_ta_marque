@@ -44,7 +44,7 @@ function displayQuestion(index) {
         sliderelabel.style.display = 'none';
         // Bouton "Voir mes notes"
         const seeResultsBtn = document.createElement('button');
-        seeResultsBtn.textContent = "Voir mes notes";
+        seeResultsBtn.textContent = "Voir mes marques";
         seeResultsBtn.href = "result.html";
         seeResultsBtn.classList.add('see-results-btn');
         seeResultsBtn.onclick = () => {
