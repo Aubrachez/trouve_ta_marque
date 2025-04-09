@@ -45,10 +45,12 @@ function displayQuestion(index) {
         // Bouton "Voir mes notes"
         const seeResultsBtn = document.createElement('button');
         seeResultsBtn.textContent = "Voir mes notes";
+        seeResultsBtn.href = "result.html";
         seeResultsBtn.classList.add('see-results-btn');
         seeResultsBtn.onclick = () => {
+            window.document.location.href='result.html';
             console.log("Résultats du quiz :", resultats);
-            
+           
         };
         document.querySelector('.centered-div').appendChild(seeResultsBtn);
     }
