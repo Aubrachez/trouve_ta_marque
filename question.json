@@ -1,0 +1,104 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Le rêve américain existe-t-il encore aujourd’hui ?"
+    },
+    {
+      "id": 2,
+      "question": "Le mérite est toujours récompensé dans la vie."
+    },
+    {
+      "id": 3,
+      "question": "La chance joue un rôle plus important que le travail."
+    },
+    {
+      "id": 4,
+      "question": "L’argent peut vraiment acheter le bonheur."
+    },
+    {
+      "id": 5,
+      "question": "Le monde devient meilleur avec le temps."
+    },
+    {
+      "id": 6,
+      "question": "Je préfère avoir raison que faire plaisir."
+    },
+    {
+      "id": 7,
+      "question": "Je suis capable de changer d’avis quand on me montre que j’ai tort."
+    },
+    {
+      "id": 8,
+      "question": "Il faut être égoïste pour réussir."
+    },
+    {
+      "id": 9,
+      "question": "Le développement personnel est une perte de temps."
+    },
+    {
+      "id": 10,
+      "question": "Je fais confiance à mon instinct plus qu’à la logique."
+    },
+    {
+      "id": 11,
+      "question": "Les épreuves nous rendent plus forts."
+    },
+    {
+      "id": 12,
+      "question": "Il faut toujours se battre, même quand tout semble perdu."
+    },
+    {
+      "id": 13,
+      "question": "Montrer ses émotions est un signe de faiblesse."
+    },
+    {
+      "id": 14,
+      "question": "Je garde mes problèmes pour moi."
+    },
+    {
+      "id": 15,
+      "question": "J’apprends de mes échecs plutôt que de mes réussites."
+    },
+    {
+      "id": 16,
+      "question": "On ne peut faire confiance à personne à 100 %."
+    },
+    {
+      "id": 17,
+      "question": "La loyauté vaut plus que l’amour."
+    },
+    {
+      "id": 18,
+      "question": "Il vaut mieux être seul que mal accompagné."
+    },
+    {
+      "id": 19,
+      "question": "Le pardon est une forme de faiblesse."
+    },
+    {
+      "id": 20,
+      "question": "Aider les autres est une responsabilité morale."
+    },
+    {
+      "id": 21,
+      "question": "Il faut toujours viser plus haut, même quand on a déjà beaucoup."
+    },
+    {
+      "id": 22,
+      "question": "La stabilité est plus importante que la passion."
+    },
+    {
+      "id": 23,
+      "question": "Je préfère une vie courte et intense à une vie longue et tranquille."
+    },
+    {
+      "id": 24,
+      "question": "Le succès, c’est d’être libre, pas riche."
+    },
+    {
+      "id": 25,
+      "question": "Il faut parfois trahir ses principes pour avancer."
+    }
+  ]
+}
