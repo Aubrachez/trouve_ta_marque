@@ -171,3 +171,44 @@ body {
     cursor: pointer;
     margin: 0; /* On retire la marge précédente */
 }
+
+/* Styles pour mobile (écran < 768px) */
+@media screen and (max-width: 768px) {
+    body {
+       height: fit-content;
+        padding-top: 90px; /* Ajustez selon la hauteur de votre navbar */
+        padding-bottom: 60px; /* Ajustez selon la hauteur de votre footer */
+        align-items: flex-start; /* Alignement en haut pour mobile */
+    }
+
+    .centered-div {
+        width: 100%;
+        height: 70vh;
+        border-radius: 0;
+        box-shadow: none;
+        padding: 15px;
+        overflow-y: auto; /* Permet le scroll si contenu trop long */
+    }
+
+    .slider {
+        width: 80%; /* Slider plus large sur mobile */
+    }
+
+    .buttons {
+        flex-direction: column; /* Empile les boutons verticalement */
+        gap: 10px;
+    }
+
+    .previous-btn, .next-btn {
+        width: 100%; /* Boutons pleine largeur */
+    }
+}
+
+/* Correction pour éviter le débordement */
+html {
+    height: fit-content;
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
